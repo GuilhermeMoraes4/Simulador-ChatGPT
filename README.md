@@ -3,7 +3,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-  Projeto construido para simular o ChatGPT, permitindo a realização de conversas diretamente com a API do GPT 3.5. Foi utilizado Python para realização do Back-end com o a biblioteca Flask e Html, CSS e JavaScript para realização do Front-End.
+  Projeto construido para simular o ChatGPT, permitindo a realização de conversas diretamente com a API do GPT 3.5. Foi utilizado Python para realização do Back-end com a biblioteca Flask e Html, CSS e JavaScript para realização do Front-End.
 </p>
 
 <h1>## Funcionalidades</h1>
