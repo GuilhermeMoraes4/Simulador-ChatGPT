@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="en" dir="ltr"> <!-- Abertura da tag HTML com atributos de idioma e direção de texto -->
+  <head>
+    <meta charset="utf-8"> <!-- Configuração da codificação de caracteres para UTF-8 -->
+    <title>Andrade Maia | IAm</title> <!-- Título da página exibido na barra de título do navegador -->
+    <link rel="stylesheet" href="/static/style.css"> <!-- Link para o arquivo CSS externo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração da viewport para dispositivos móveis -->
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Link para o arquivo JavaScript externo com o atributo 'defer' para execução após o carregamento da página -->
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+  </head>
+  <body>
+    <!-- Chats container -->
+    <div class="chat-container"></div> <!-- Contêiner para exibir os chats -->
+
+    <!-- Typing container -->
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea id="chat-input" spellcheck="false" placeholder="Digite aqui:" required></textarea> <!-- Área de texto para a entrada do chat -->
+          <span id="send-btn" class="material-symbols-rounded">send</span> <!-- Botão para enviar mensagens -->
+        </div>
+        <div class="typing-controls">
+          <span id="theme-btn" class="material-symbols-rounded">light_mode</span> <!-- Botão para mudar o tema -->
+          <span id="delete-btn" class="material-symbols-rounded">delete</span> <!-- Botão para excluir o chat -->
+      </div>
+    </div>
+  </body>
+</html>
